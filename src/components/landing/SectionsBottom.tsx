@@ -105,16 +105,16 @@ export function Oferta() {
 
             <div className="mt-6 border-t border-navy-foreground/15 pt-6 text-center">
               <p className="text-sm text-navy-foreground/70">
-                Valor somado: <span className="line-through">R$398</span>
+                Valor somado: <span className="line-through">R$398</span> · Valor normal: <span className="line-through">R$297</span>
               </p>
               <p className="mt-2 text-xs font-bold uppercase tracking-[0.18em] text-accent">
                 Hoje você investe
               </p>
               <p className="mt-1 font-display text-5xl font-extrabold sm:text-6xl">
-                R$97
+                R$59,90
               </p>
               <p className="mt-2 text-sm text-navy-foreground/80">
-                ou <strong className="font-semibold text-navy-foreground">6x de R$18,79</strong> no
+                ou <strong className="font-semibold text-navy-foreground">6x de R$9,98</strong> no
                 cartão
               </p>
 
