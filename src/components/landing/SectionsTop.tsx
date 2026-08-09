@@ -122,8 +122,8 @@ export function Hero() {
 const credentials = [
   {
     icon: GraduationCap,
-    title: "Escrito por médico formado",
-    body: "Material produzido por médico graduado e aprovado em processo seletivo de residência médica. [INSERIR INSTITUIÇÃO/PROCESSO, se aplicável]",
+    title: "Feito por médicos aprovados no ano de residência",
+    body: "Material elaborado por médicos que passaram por ENARE, UERJ e USP. Quem escreveu sabe o formato da banca porque enfrentou essas provas de perto.",
   },
   {
     icon: Layers,
@@ -133,7 +133,7 @@ const credentials = [
   {
     icon: ShieldCheck,
     title: "Comentários referenciados",
-    body: "Cada comentário é construído sobre diretrizes e literatura vigente, revisado para eliminar gabarito desatualizado.",
+    body: "Cada gabarito é construído sobre raciocínio clínico, diretrizes e literatura vigente. Inclui ilustrações para fixar conceitos que mais caem.",
   },
 ];
 
