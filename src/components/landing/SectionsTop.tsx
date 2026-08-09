@@ -32,17 +32,18 @@ export function Hero() {
 
         <Reveal delay={80}>
           <h1 className="mt-6 text-center text-balance-tight text-[2rem] font-extrabold leading-[1.1] sm:text-5xl">
-            Pare de estudar resumo genérico. Resolva as questões que realmente caem na prova de
-            residência.
+            Feito por médicos aprovados no ano de residência. Questões com
+            raciocínio lógico, ilustrações e gabaritos bem explicados.
           </h1>
         </Reveal>
 
         <Reveal delay={160}>
           <p className="mx-auto mt-5 max-w-2xl text-center text-base leading-relaxed text-navy-foreground/80 sm:text-lg">
             <strong className="font-semibold text-navy-foreground">1.500+ questões comentadas</strong>{" "}
-            extraídas de <strong className="font-semibold text-navy-foreground">15 provas</strong> de{" "}
-            <strong className="font-semibold text-navy-foreground">3 instituições</strong> — com o
-            raciocínio clínico de cada alternativa explicado, não apenas o gabarito.
+            de <strong className="font-semibold text-navy-foreground">15 provas</strong> de{" "}
+            <strong className="font-semibold text-navy-foreground">ENARE, UERJ e USP</strong>. Cada
+            gabarito explica o raciocínio clínico alternativa por alternativa, com ilustrações que
+            ajudam a fixar o padrão da banca.
           </p>
         </Reveal>
 
@@ -85,7 +86,7 @@ export function Hero() {
         <Reveal delay={280}>
           <div className="mt-8 flex flex-col items-center gap-3">
             <CtaButton size="xl" className="max-w-md">
-              Quero o banco de questões por R$97
+              Quero o banco de questões por R$59,90
             </CtaButton>
             <p className="text-xs text-navy-foreground/70">
               Acesso imediato · em até 6x no cartão · garantia de 7 dias
@@ -121,8 +122,8 @@ export function Hero() {
 const credentials = [
   {
     icon: GraduationCap,
-    title: "Escrito por médico formado",
-    body: "Material produzido por médico graduado e aprovado em processo seletivo de residência médica. [INSERIR INSTITUIÇÃO/PROCESSO, se aplicável]",
+    title: "Feito por médicos aprovados no ano de residência",
+    body: "Material elaborado por médicos que passaram por ENARE, UERJ e USP. Quem escreveu sabe o formato da banca porque enfrentou essas provas de perto.",
   },
   {
     icon: Layers,
@@ -132,7 +133,7 @@ const credentials = [
   {
     icon: ShieldCheck,
     title: "Comentários referenciados",
-    body: "Cada comentário é construído sobre diretrizes e literatura vigente, revisado para eliminar gabarito desatualizado.",
+    body: "Cada gabarito é construído sobre raciocínio clínico, diretrizes e literatura vigente. Inclui ilustrações para fixar conceitos que mais caem.",
   },
 ];
 
@@ -170,12 +171,13 @@ export function Autoridade() {
         <div className="mt-8 rounded-2xl border border-navy/15 bg-clinical p-6 sm:p-8">
           <h3 className="font-display text-lg font-bold text-navy">Sobre o material</h3>
           <p className="mt-3 text-sm leading-relaxed text-foreground/80 sm:text-base">
-            O processo de curadoria seguiu quatro etapas: (1) levantamento das provas oficiais de
-            ENARE, UERJ e USP; (2) digitação e conferência de cada enunciado contra o documento
-            original; (3) redação do comentário com raciocínio clínico passo a passo, incluindo o
-            motivo de cada alternativa errada; (4) revisão final contra diretrizes atuais. São mais de
-            dois anos de estudo e organização condensados em um banco pesquisável por instituição e
-            por tema.
+            O banco foi desenvolvido por médicos aprovados no ano de residência. A curadoria seguiu
+            quatro etapas: (1) levantamento das provas oficiais de ENARE, UERJ e USP; (2) digitação e
+            conferência de cada enunciado contra o documento original; (3) redação do gabarito com
+            raciocínio clínico passo a passo, raciocínio lógico e ilustrações que explicam o motivo
+            de cada alternativa errada; (4) revisão final contra diretrizes atuais. São mais de dois
+            anos de estudo e organização condensados em um banco pesquisável por instituição e por
+            tema.
           </p>
         </div>
       </Reveal>

@@ -105,16 +105,16 @@ export function Oferta() {
 
             <div className="mt-6 border-t border-navy-foreground/15 pt-6 text-center">
               <p className="text-sm text-navy-foreground/70">
-                Valor somado: <span className="line-through">R$398</span>
+                Valor somado: <span className="line-through">R$398</span> · Valor normal: <span className="line-through">R$297</span>
               </p>
               <p className="mt-2 text-xs font-bold uppercase tracking-[0.18em] text-accent">
                 Hoje você investe
               </p>
               <p className="mt-1 font-display text-5xl font-extrabold sm:text-6xl">
-                R$97
+                R$59,90
               </p>
               <p className="mt-2 text-sm text-navy-foreground/80">
-                ou <strong className="font-semibold text-navy-foreground">6x de R$18,79</strong> no
+                ou <strong className="font-semibold text-navy-foreground">6x de R$9,98</strong> no
                 cartão
               </p>
 
@@ -171,7 +171,7 @@ export function Garantia() {
 const faq = [
   {
     q: "Quem preparou esse material?",
-    a: "O material foi produzido por médico formado e aprovado em processo seletivo de residência, a partir de curadoria direta das provas oficiais. A credibilidade está no processo: enunciados conferidos contra o documento original da banca, comentários redigidos com raciocínio clínico e revisão final contra diretrizes vigentes. Você pode avaliar a qualidade pelos exemplos reais exibidos nesta página antes de comprar.",
+    a: "O material foi preparado por médicos aprovados no ano de residência, com experiência direta nas provas de ENARE, UERJ e USP. A credibilidade está no processo: enunciados conferidos contra o documento original da banca, gabaritos construídos com raciocínio clínico e raciocínio lógico, ilustrações para fixar conceitos, e revisão final contra diretrizes vigentes. Você pode avaliar a qualidade pelos exemplos reais exibidos nesta página antes de comprar.",
   },
   {
     q: "Quais provas e instituições estão incluídas?",
@@ -179,7 +179,7 @@ const faq = [
   },
   {
     q: "O comentário é só o gabarito?",
-    a: "Não. Cada questão traz o raciocínio clínico que leva à resposta, o diagnóstico diferencial quando aplicável e a justificativa de por que cada alternativa errada está errada. É esse encadeamento que treina a decisão exigida na prova.",
+    a: "Não. Cada questão traz o raciocínio clínico e o raciocínio lógico que levam à resposta, o diagnóstico diferencial quando aplicável, ilustrações em questões selecionadas e a justificativa de por que cada alternativa errada está errada. É esse encadeamento que treina a decisão exigida na prova.",
   },
   {
     q: "Como recebo o acesso?",
@@ -233,19 +233,19 @@ export function CtaFinal() {
       <div className="mx-auto max-w-2xl px-5 text-center sm:px-6">
         <Reveal>
           <h2 id="cta-final" className="text-balance-tight text-2xl font-extrabold sm:text-4xl">
-            1.500+ questões comentadas de 15 provas. R$97, com garantia de 7 dias.
+            1.500+ questões comentadas de 15 provas. R$59,90, com garantia de 7 dias.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-navy-foreground/80">
             Este material reúne as questões reais de ENARE, UERJ e USP com o raciocínio clínico
-            destrinchado alternativa por alternativa. O preço de lançamento vale por tempo limitado —
-            depois volta para R$297.
+            destrinchado alternativa por alternativa — com ilustrações e gabaritos bem explicados.
+            O preço de lançamento vale por tempo limitado — depois volta para R$297.
           </p>
           <div className="mt-8 flex flex-col items-center gap-3">
             <CtaButton size="xl" pulse className="max-w-md">
-              Comprar agora por R$97
+              Comprar agora por R$59,90
             </CtaButton>
             <p className="text-xs text-navy-foreground/70">
-              Acesso imediato · 6x de R$18,79 · reembolso em 7 dias
+              Acesso imediato · 6x de R$9,98 · reembolso em 7 dias
             </p>
           </div>
         </Reveal>

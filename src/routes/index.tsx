@@ -5,7 +5,7 @@ import { Dados, Oferta, Garantia, Faq, CtaFinal } from "@/components/landing/Sec
 
 const TITLE = "1500+ Questões Comentadas de Residência | ENARE, UERJ e USP";
 const DESCRIPTION =
-  "Banco com 1.500+ questões comentadas de 15 provas de residência (ENARE, UERJ, USP), com raciocínio clínico explicado alternativa por alternativa. R$97 em até 6x.";
+  "Banco com 1.500+ questões comentadas de 15 provas de residência (ENARE, UERJ, USP), com raciocínio clínico e lógico explicado alternativa por alternativa e ilustrações. Por R$59,90 em até 6x.";
 
 export const Route = createFileRoute("/")({
   head: () => ({

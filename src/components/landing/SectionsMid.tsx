@@ -14,7 +14,8 @@ export function Metodo() {
   const questao = [
     "Recuperação ativa: obriga decisão antes da resposta",
     "Enunciado real da banca, no formato da prova",
-    "Comentário explica por que cada alternativa cai ou não",
+    "Comentário explica por que cada alternativa cai ou não, com raciocínio lógico",
+    "Ilustrações em questões selecionadas para fixar padrões clínicos",
     "A lacuna aparece hoje, com tempo para corrigir",
   ];
 
@@ -80,17 +81,17 @@ const amostras = [
   {
     src: questao1,
     titulo: "Questão + gabarito comentado",
-    desc: "Enunciado real, alternativa correta destacada e comentário abrindo o raciocínio clínico.",
+    desc: "Enunciado real, alternativa correta destacada e comentário explicando o raciocínio lógico passo a passo.",
   },
   {
     src: questao2,
     titulo: "Comentário estruturado",
-    desc: "Raciocínio clínico, diagnóstico diferencial e o motivo de cada alternativa errada.",
+    desc: "Raciocínio clínico, diagnóstico diferencial e o motivo de cada alternativa errada, com ilustrações quando necessário.",
   },
   {
     src: questao3,
     titulo: "Mapa mental de fechamento",
-    desc: "Síntese do tema para revisão rápida nas semanas finais (bônus incluso).",
+    desc: "Síntese visual do tema para revisão rápida nas semanas finais (bônus incluso).",
   },
 ];
 
@@ -155,7 +156,7 @@ export function ProvaVisual() {
 const entregaveis = [
   { icon: ListChecks, t: "1.500+ questões comentadas", d: "Organizadas por instituição e por grande área." },
   { icon: FileCheck2, t: "Cobertura ENARE, UERJ e USP", d: "15 provas oficiais mapeadas questão por questão." },
-  { icon: Brain, t: "Comentários estruturados", d: "Raciocínio clínico, gabarito justificado e alternativas erradas explicadas." },
+  { icon: Brain, t: "Gabaritos bem explicados", d: "Raciocínio clínico, raciocínio lógico e alternativas erradas explicadas uma a uma." },
   { icon: Smartphone, t: "Acesso digital imediato", d: "PDF otimizado para celular, tablet e computador. Baixe e estude offline." },
   { icon: RefreshCw, t: "Atualizações incluídas", d: "Novas provas e correções entram sem custo adicional." },
   { icon: Sparkles, t: "Área de membros vitalícia", d: "Compra única, acesso permanente pela plataforma." },
