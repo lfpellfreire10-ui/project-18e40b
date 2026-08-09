@@ -171,7 +171,7 @@ export function Garantia() {
 const faq = [
   {
     q: "Quem preparou esse material?",
-    a: "O material foi produzido por médico formado e aprovado em processo seletivo de residência, a partir de curadoria direta das provas oficiais. A credibilidade está no processo: enunciados conferidos contra o documento original da banca, comentários redigidos com raciocínio clínico e revisão final contra diretrizes vigentes. Você pode avaliar a qualidade pelos exemplos reais exibidos nesta página antes de comprar.",
+    a: "O material foi preparado por médicos aprovados no ano de residência, com experiência direta nas provas de ENARE, UERJ e USP. A credibilidade está no processo: enunciados conferidos contra o documento original da banca, gabaritos construídos com raciocínio clínico e raciocínio lógico, ilustrações para fixar conceitos, e revisão final contra diretrizes vigentes. Você pode avaliar a qualidade pelos exemplos reais exibidos nesta página antes de comprar.",
   },
   {
     q: "Quais provas e instituições estão incluídas?",
@@ -179,7 +179,7 @@ const faq = [
   },
   {
     q: "O comentário é só o gabarito?",
-    a: "Não. Cada questão traz o raciocínio clínico que leva à resposta, o diagnóstico diferencial quando aplicável e a justificativa de por que cada alternativa errada está errada. É esse encadeamento que treina a decisão exigida na prova.",
+    a: "Não. Cada questão traz o raciocínio clínico e o raciocínio lógico que levam à resposta, o diagnóstico diferencial quando aplicável, ilustrações em questões selecionadas e a justificativa de por que cada alternativa errada está errada. É esse encadeamento que treina a decisão exigida na prova.",
   },
   {
     q: "Como recebo o acesso?",
