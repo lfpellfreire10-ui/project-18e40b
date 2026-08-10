@@ -1,4 +1,4 @@
-import { Stethoscope, ShieldCheck, GraduationCap, Play, Clock, AlertTriangle, Layers } from "lucide-react";
+import { Stethoscope, ShieldCheck, GraduationCap, Cross, Play, Clock, AlertTriangle, Layers } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { CtaButton } from "./CtaButton";
 import heroBg from "@/assets/hero-bg.jpg";
