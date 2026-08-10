@@ -138,8 +138,9 @@ export function Autoridade() {
           Credibilidade vem do material — não de rosto em anúncio.
         </h2>
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground">
-          Aqui não há guru, nem palco. Há prova resolvida, comentário estruturado e critério de
-          curadoria que você pode conferir antes de comprar.
+          Comentários feitos por médicos aprovados, explicando o raciocínio clínico por trás de cada
+          resposta — não apenas o gabarito. Questões com raciocínio lógico bem explicado, algumas
+          delas com ilustrações.
         </p>
       </Reveal>
 
