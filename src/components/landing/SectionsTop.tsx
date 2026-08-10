@@ -6,7 +6,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 const stats = [
   { value: "1.500+", label: "questões comentadas" },
   { value: "15", label: "provas de residência" },
-  { value: "3", label: "instituições: ENARE, UERJ, USP" },
+  { value: "4", label: "instituições: ENARE, UERJ, UNIFESP e SUS-SP" },
 ];
 
 export function Hero() {
