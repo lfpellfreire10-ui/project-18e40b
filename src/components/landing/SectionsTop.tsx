@@ -111,19 +111,19 @@ export function Hero() {
 
 const credentials = [
   {
+    icon: Stethoscope,
+    title: "Médicos aprovados",
+    body: "Comentários feitos por médicos aprovados, explicando o raciocínio clínico por trás de cada resposta — não apenas o gabarito.",
+  },
+  {
+    icon: Cross,
+    title: "Raciocínio lógico + ilustrações",
+    body: "Questões com raciocínio lógico bem explicado, algumas delas com ilustrações que ajudam a fixar padrões clínicos.",
+  },
+  {
     icon: GraduationCap,
-    title: "Feito por médicos aprovados no ano de residência",
-    body: "Material elaborado por médicos que passaram por ENARE, UERJ e USP. Quem escreveu sabe o formato da banca porque enfrentou essas provas de perto.",
-  },
-  {
-    icon: Layers,
-    title: "Curadoria de 15 provas reais",
-    body: "Provas oficiais de ENARE, UERJ e USP mapeadas questão por questão, com classificação por grande área e tema.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Comentários referenciados",
-    body: "Cada gabarito é construído sobre raciocínio clínico, diretrizes e literatura vigente. Inclui ilustrações para fixar conceitos que mais caem.",
+    title: "Curadoria de provas reais",
+    body: "15 provas de ENARE, UERJ, UNIFESP e SUS-SP mapeadas. Mais de 1.500 questões comentadas, organizadas por instituição e tema.",
   },
 ];
 
