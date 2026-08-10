@@ -32,8 +32,7 @@ export function Hero() {
 
         <Reveal delay={80}>
           <h1 className="mt-6 text-center text-balance-tight text-[2rem] font-extrabold leading-[1.1] sm:text-5xl">
-            Chega de decorar resumo: resolva as 1.500+ questões comentadas que
-            mais caem em ENARE, UERJ, UNIFESP e SUS-SP
+            Não dá mais tempo para decorar resumo. As provas estão chegando. Resolva e entenda a resposta detalhada de mais de 1500 questões das principais residências médicas do país
           </h1>
         </Reveal>
 
