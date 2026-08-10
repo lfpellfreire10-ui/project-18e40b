@@ -26,30 +26,20 @@ export function Hero() {
         <Reveal className="flex justify-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-navy-foreground/20 bg-navy-foreground/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-navy-foreground/85">
             <Stethoscope className="h-3.5 w-3.5" aria-hidden="true" />
-            ENARE · UERJ · USP
+            ENARE · UERJ · UNIFESP · SUS-SP
           </span>
         </Reveal>
 
         <Reveal delay={80}>
           <h1 className="mt-6 text-center text-balance-tight text-[2rem] font-extrabold leading-[1.1] sm:text-5xl">
-            Feito por médicos aprovados no ano de residência. Questões com
-            raciocínio lógico, ilustrações e gabaritos bem explicados.
+            Chega de decorar resumo: resolva as 1.500+ questões comentadas que
+            mais caem em ENARE, UERJ, UNIFESP e SUS-SP
           </h1>
         </Reveal>
 
-        <Reveal delay={160}>
-          <p className="mx-auto mt-5 max-w-2xl text-center text-base leading-relaxed text-navy-foreground/80 sm:text-lg">
-            <strong className="font-semibold text-navy-foreground">1.500+ questões comentadas</strong>{" "}
-            de <strong className="font-semibold text-navy-foreground">15 provas</strong> de{" "}
-            <strong className="font-semibold text-navy-foreground">ENARE, UERJ e USP</strong>. Cada
-            gabarito explica o raciocínio clínico alternativa por alternativa, com ilustrações que
-            ajudam a fixar o padrão da banca.
-          </p>
-        </Reveal>
-
         {/* ==========================================================
-            VÍDEO DE VENDAS — insira aqui o embed (YouTube / Vimeo / Wistia).
-            Substitua o bloco <button> abaixo por, por exemplo:
+            VÍDEO DE VENDAS — player 16:9 centralizado. Insira aqui o embed
+            (YouTube / Vimeo / Wistia). Substitua o bloco <button> abaixo por:
             <iframe
               className="absolute inset-0 h-full w-full"
               src="https://www.youtube.com/embed/SEU_ID?rel=0"
