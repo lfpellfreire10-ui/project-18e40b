@@ -11,7 +11,8 @@ import {
 const cobertura = [
   { inst: "ENARE", provas: "6 provas", questoes: "620+ questões", anos: "2021 – 2025" },
   { inst: "UERJ", provas: "5 provas", questoes: "480+ questões", anos: "2021 – 2025" },
-  { inst: "USP", provas: "4 provas", questoes: "400+ questões", anos: "2022 – 2025" },
+  { inst: "UNIFESP", provas: "1 prova", questoes: "120+ questões", anos: "2024 – 2025" },
+  { inst: "SUS-SP", provas: "3 provas", questoes: "280+ questões", anos: "2022 – 2025" },
 ];
 
 export function Dados() {
