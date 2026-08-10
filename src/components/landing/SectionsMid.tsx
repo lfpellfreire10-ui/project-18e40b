@@ -14,7 +14,7 @@ export function Metodo() {
   const questao = [
     "Recuperação ativa: obriga decisão antes da resposta",
     "Enunciado real da banca, no formato da prova",
-    "Comentário explica por que cada alternativa cai ou não, com raciocínio lógico",
+    "Comentário explica por que cada alternativa cai ou não, com raciocínio lógico — método validado em ENARE, UERJ, UNIFESP e SUS-SP",
     "Ilustrações em questões selecionadas para fixar padrões clínicos",
     "A lacuna aparece hoje, com tempo para corrigir",
   ];
@@ -155,7 +155,7 @@ export function ProvaVisual() {
 
 const entregaveis = [
   { icon: ListChecks, t: "1.500+ questões comentadas", d: "Organizadas por instituição e por grande área." },
-  { icon: FileCheck2, t: "Cobertura ENARE, UERJ e USP", d: "15 provas oficiais mapeadas questão por questão." },
+  { icon: FileCheck2, t: "Cobertura ENARE, UERJ, UNIFESP e SUS-SP", d: "15 provas oficiais mapeadas questão por questão." },
   { icon: Brain, t: "Gabaritos bem explicados", d: "Raciocínio clínico, raciocínio lógico e alternativas erradas explicadas uma a uma." },
   { icon: Smartphone, t: "Acesso digital imediato", d: "PDF otimizado para celular, tablet e computador. Baixe e estude offline." },
   { icon: RefreshCw, t: "Atualizações incluídas", d: "Novas provas e correções entram sem custo adicional." },
@@ -191,7 +191,7 @@ export function OQueRecebe() {
 
 const bonus = [
   { t: "Mapas mentais das grandes áreas", d: "Síntese visual para revisão nas 72h finais.", valor: "R$67" },
-  { t: "Guia de erros clássicos de prova", d: "Pegadinhas recorrentes de ENARE, UERJ e USP.", valor: "R$47" },
+  { t: "Guia de erros clássicos de prova", d: "Pegadinhas recorrentes de ENARE, UERJ, UNIFESP e SUS-SP.", valor: "R$47" },
   { t: "Planilha de desempenho por tema", d: "Registre acertos e identifique lacunas objetivamente.", valor: "R$37" },
 ];
 

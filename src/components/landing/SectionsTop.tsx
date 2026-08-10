@@ -1,4 +1,4 @@
-import { Stethoscope, ShieldCheck, GraduationCap, Play, Clock, AlertTriangle, Layers } from "lucide-react";
+import { Stethoscope, ShieldCheck, GraduationCap, Cross, Play, Clock, AlertTriangle, Layers } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { CtaButton } from "./CtaButton";
 import heroBg from "@/assets/hero-bg.jpg";
@@ -6,7 +6,7 @@ import heroBg from "@/assets/hero-bg.jpg";
 const stats = [
   { value: "1.500+", label: "questões comentadas" },
   { value: "15", label: "provas de residência" },
-  { value: "3", label: "instituições: ENARE, UERJ, USP" },
+  { value: "4", label: "instituições: ENARE, UERJ, UNIFESP e SUS-SP" },
 ];
 
 export function Hero() {
@@ -26,30 +26,20 @@ export function Hero() {
         <Reveal className="flex justify-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-navy-foreground/20 bg-navy-foreground/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-navy-foreground/85">
             <Stethoscope className="h-3.5 w-3.5" aria-hidden="true" />
-            ENARE · UERJ · USP
+            ENARE · UERJ · UNIFESP · SUS-SP
           </span>
         </Reveal>
 
         <Reveal delay={80}>
           <h1 className="mt-6 text-center text-balance-tight text-[2rem] font-extrabold leading-[1.1] sm:text-5xl">
-            Feito por médicos aprovados no ano de residência. Questões com
-            raciocínio lógico, ilustrações e gabaritos bem explicados.
+            Chega de decorar resumo: resolva as 1.500+ questões comentadas que
+            mais caem em ENARE, UERJ, UNIFESP e SUS-SP
           </h1>
         </Reveal>
 
-        <Reveal delay={160}>
-          <p className="mx-auto mt-5 max-w-2xl text-center text-base leading-relaxed text-navy-foreground/80 sm:text-lg">
-            <strong className="font-semibold text-navy-foreground">1.500+ questões comentadas</strong>{" "}
-            de <strong className="font-semibold text-navy-foreground">15 provas</strong> de{" "}
-            <strong className="font-semibold text-navy-foreground">ENARE, UERJ e USP</strong>. Cada
-            gabarito explica o raciocínio clínico alternativa por alternativa, com ilustrações que
-            ajudam a fixar o padrão da banca.
-          </p>
-        </Reveal>
-
         {/* ==========================================================
-            VÍDEO DE VENDAS — insira aqui o embed (YouTube / Vimeo / Wistia).
-            Substitua o bloco <button> abaixo por, por exemplo:
+            VÍDEO DE VENDAS — player 16:9 centralizado. Insira aqui o embed
+            (YouTube / Vimeo / Wistia). Substitua o bloco <button> abaixo por:
             <iframe
               className="absolute inset-0 h-full w-full"
               src="https://www.youtube.com/embed/SEU_ID?rel=0"
@@ -85,7 +75,7 @@ export function Hero() {
 
         <Reveal delay={280}>
           <div className="mt-8 flex flex-col items-center gap-3">
-            <CtaButton size="xl" className="max-w-md">
+            <CtaButton size="xl" className="max-w-md cta-glow-hover">
               Quero o banco de questões por R$59,90
             </CtaButton>
             <p className="text-xs text-navy-foreground/70">
@@ -121,19 +111,19 @@ export function Hero() {
 
 const credentials = [
   {
+    icon: Stethoscope,
+    title: "Médicos aprovados",
+    body: "Comentários feitos por médicos aprovados, explicando o raciocínio clínico por trás de cada resposta — não apenas o gabarito.",
+  },
+  {
+    icon: Cross,
+    title: "Raciocínio lógico + ilustrações",
+    body: "Questões com raciocínio lógico bem explicado, algumas delas com ilustrações que ajudam a fixar padrões clínicos.",
+  },
+  {
     icon: GraduationCap,
-    title: "Feito por médicos aprovados no ano de residência",
-    body: "Material elaborado por médicos que passaram por ENARE, UERJ e USP. Quem escreveu sabe o formato da banca porque enfrentou essas provas de perto.",
-  },
-  {
-    icon: Layers,
-    title: "Curadoria de 15 provas reais",
-    body: "Provas oficiais de ENARE, UERJ e USP mapeadas questão por questão, com classificação por grande área e tema.",
-  },
-  {
-    icon: ShieldCheck,
-    title: "Comentários referenciados",
-    body: "Cada gabarito é construído sobre raciocínio clínico, diretrizes e literatura vigente. Inclui ilustrações para fixar conceitos que mais caem.",
+    title: "Curadoria de provas reais",
+    body: "15 provas de ENARE, UERJ, UNIFESP e SUS-SP mapeadas. Mais de 1.500 questões comentadas, organizadas por instituição e tema.",
   },
 ];
 
@@ -148,8 +138,9 @@ export function Autoridade() {
           Credibilidade vem do material — não de rosto em anúncio.
         </h2>
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground">
-          Aqui não há guru, nem palco. Há prova resolvida, comentário estruturado e critério de
-          curadoria que você pode conferir antes de comprar.
+          Comentários feitos por médicos aprovados, explicando o raciocínio clínico por trás de cada
+          resposta — não apenas o gabarito. Questões com raciocínio lógico bem explicado, algumas
+          delas com ilustrações.
         </p>
       </Reveal>
 
@@ -172,11 +163,11 @@ export function Autoridade() {
           <h3 className="font-display text-lg font-bold text-navy">Sobre o material</h3>
           <p className="mt-3 text-sm leading-relaxed text-foreground/80 sm:text-base">
             O banco foi desenvolvido por médicos aprovados no ano de residência. A curadoria seguiu
-            quatro etapas: (1) levantamento das provas oficiais de ENARE, UERJ e USP; (2) digitação e
-            conferência de cada enunciado contra o documento original; (3) redação do gabarito com
-            raciocínio clínico passo a passo, raciocínio lógico e ilustrações que explicam o motivo
-            de cada alternativa errada; (4) revisão final contra diretrizes atuais. São mais de dois
-            anos de estudo e organização condensados em um banco pesquisável por instituição e por
+            quatro etapas: (1) levantamento das provas oficiais de ENARE, UERJ, UNIFESP e SUS-SP; (2)
+            digitação e conferência de cada enunciado contra o documento original; (3) redação do
+            gabarito com raciocínio clínico passo a passo, raciocínio lógico e ilustrações que explicam
+            o motivo de cada alternativa errada; (4) revisão final contra diretrizes atuais. São mais de
+            dois anos de estudo e organização condensados em um banco pesquisável por instituição e por
             tema.
           </p>
         </div>
