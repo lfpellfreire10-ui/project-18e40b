@@ -163,11 +163,11 @@ export function Autoridade() {
           <h3 className="font-display text-lg font-bold text-navy">Sobre o material</h3>
           <p className="mt-3 text-sm leading-relaxed text-foreground/80 sm:text-base">
             O banco foi desenvolvido por médicos aprovados no ano de residência. A curadoria seguiu
-            quatro etapas: (1) levantamento das provas oficiais de ENARE, UERJ e USP; (2) digitação e
-            conferência de cada enunciado contra o documento original; (3) redação do gabarito com
-            raciocínio clínico passo a passo, raciocínio lógico e ilustrações que explicam o motivo
-            de cada alternativa errada; (4) revisão final contra diretrizes atuais. São mais de dois
-            anos de estudo e organização condensados em um banco pesquisável por instituição e por
+            quatro etapas: (1) levantamento das provas oficiais de ENARE, UERJ, UNIFESP e SUS-SP; (2)
+            digitação e conferência de cada enunciado contra o documento original; (3) redação do
+            gabarito com raciocínio clínico passo a passo, raciocínio lógico e ilustrações que explicam
+            o motivo de cada alternativa errada; (4) revisão final contra diretrizes atuais. São mais de
+            dois anos de estudo e organização condensados em um banco pesquisável por instituição e por
             tema.
           </p>
         </div>
