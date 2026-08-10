@@ -36,7 +36,7 @@ export function Dados() {
         </p>
       </Reveal>
 
-      <div className="mt-10 grid gap-4 sm:grid-cols-3">
+      <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {cobertura.map((c, i) => (
           <Reveal key={c.inst} delay={i * 110}>
             <div className="h-full rounded-2xl border border-navy/15 bg-clinical p-6">
@@ -172,11 +172,11 @@ export function Garantia() {
 const faq = [
   {
     q: "Quem preparou esse material?",
-    a: "O material foi preparado por médicos aprovados no ano de residência, com experiência direta nas provas de ENARE, UERJ e USP. A credibilidade está no processo: enunciados conferidos contra o documento original da banca, gabaritos construídos com raciocínio clínico e raciocínio lógico, ilustrações para fixar conceitos, e revisão final contra diretrizes vigentes. Você pode avaliar a qualidade pelos exemplos reais exibidos nesta página antes de comprar.",
+    a: "O material foi preparado por médicos aprovados no ano de residência, com experiência direta nas provas de ENARE, UERJ, UNIFESP e SUS-SP. A credibilidade está no processo: enunciados conferidos contra o documento original da banca, gabaritos construídos com raciocínio clínico e raciocínio lógico, ilustrações para fixar conceitos, e revisão final contra diretrizes vigentes. Você pode avaliar a qualidade pelos exemplos reais exibidos nesta página antes de comprar.",
   },
   {
     q: "Quais provas e instituições estão incluídas?",
-    a: "São 15 provas de ENARE, UERJ e USP, dos ciclos de 2021 a 2025, totalizando mais de 1.500 questões comentadas e organizadas por instituição e por grande área.",
+    a: "São 15 provas de ENARE, UERJ, UNIFESP e SUS-SP, dos ciclos de 2021 a 2025, totalizando mais de 1.500 questões comentadas e organizadas por instituição e por grande área.",
   },
   {
     q: "O comentário é só o gabarito?",
@@ -188,7 +188,7 @@ const faq = [
   },
   {
     q: "Serve para quem está no internato ou já formado?",
-    a: "Sim. O banco é indicado para formandos e recém-formados em preparação para ENARE, UERJ e USP, tanto em primeira tentativa quanto em revisão para nova tentativa.",
+    a: "Sim. O banco é indicado para formandos e recém-formados em preparação para ENARE, UERJ, UNIFESP e SUS-SP, tanto em primeira tentativa quanto em revisão para nova tentativa.",
   },
   {
     q: "E se eu não gostar?",
@@ -237,8 +237,8 @@ export function CtaFinal() {
             1.500+ questões comentadas de 15 provas. R$59,90, com garantia de 7 dias.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-navy-foreground/80">
-            Este material reúne as questões reais de ENARE, UERJ e USP com o raciocínio clínico
-            destrinchado alternativa por alternativa — com ilustrações e gabaritos bem explicados.
+            Este material reúne as questões reais de ENARE, UERJ, UNIFESP e SUS-SP com o raciocínio clínico
+            destrinchado alternativa por alternativa — com raciocínio lógico, ilustrações e gabaritos bem explicados.
             O preço de lançamento vale por tempo limitado — depois volta para R$297.
           </p>
           <div className="mt-8 flex flex-col items-center gap-3">
