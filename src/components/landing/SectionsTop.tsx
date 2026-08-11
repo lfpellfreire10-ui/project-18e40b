@@ -32,7 +32,7 @@ export function Hero() {
 
         <Reveal delay={80}>
           <h1 className="mt-6 text-center text-balance-tight text-[2rem] font-extrabold leading-[1.1] sm:text-5xl">
-            Não dá mais tempo para decorar resumo. As provas estão chegando. Resolva e entenda a resposta detalhada de mais de 1500 questões das principais residências médicas do país
+            Chega de decorar resumo. Resolva e entenda mais de 1.500 questões comentadas, extraídas das principais provas de residência médica
           </h1>
         </Reveal>
 
