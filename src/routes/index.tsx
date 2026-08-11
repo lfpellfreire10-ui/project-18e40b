@@ -3,9 +3,9 @@ import { Hero, Autoridade, Dor } from "@/components/landing/SectionsTop";
 import { Metodo, ProvaVisual, OQueRecebe, Bonus } from "@/components/landing/SectionsMid";
 import { Dados, Oferta, Garantia, Faq, CtaFinal } from "@/components/landing/SectionsBottom";
 
-const TITLE = "Não dá mais tempo para decorar resumo | 1500+ Questões Comentadas de Residência";
+const TITLE = "Chega de decorar resumo | 1.500+ Questões Comentadas de Residência";
 const DESCRIPTION =
-  "As provas estão chegando. Resolva e entenda a resposta detalhada de mais de 1500 questões comentadas das principais residências médicas do país. Por R$59,90 em até 6x.";
+  "Resolva e entenda mais de 1.500 questões comentadas, extraídas das principais provas de residência médica. Por R$59,90 em até 6x.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
