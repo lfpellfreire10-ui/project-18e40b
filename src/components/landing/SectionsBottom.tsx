@@ -1,4 +1,4 @@
-import { ShieldCheck, BadgeCheck, CalendarClock, Lock, CreditCard } from "lucide-react";
+import { ShieldCheck, BadgeCheck, CalendarClock, Lock, CreditCard, Zap } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { CtaButton } from "./CtaButton";
 import {
@@ -9,10 +9,10 @@ import {
 } from "@/components/ui/accordion";
 
 const cobertura = [
-  { inst: "ENARE", provas: "6 provas", questoes: "620+ questões", anos: "2021 – 2025" },
-  { inst: "UERJ", provas: "5 provas", questoes: "480+ questões", anos: "2021 – 2025" },
-  { inst: "UNIFESP", provas: "1 prova", questoes: "120+ questões", anos: "2024 – 2025" },
-  { inst: "SUS-SP", provas: "3 provas", questoes: "280+ questões", anos: "2022 – 2025" },
+  { inst: "ENARE", provas: "5 provas", questoes: "500 questões", anos: "2021 – 2025" },
+  { inst: "UERJ", provas: "5 provas", questoes: "500 questões", anos: "2021 – 2025" },
+  { inst: "UNIFESP", provas: "3 provas", questoes: "300 questões", anos: "2021 – 2025" },
+  { inst: "SUS-SP", provas: "2 provas", questoes: "200 questões", anos: "2021 – 2025" },
 ];
 
 export function Dados() {
@@ -74,21 +74,23 @@ export function Oferta() {
     <section id="oferta" className="bg-gradient-navy py-16 text-navy-foreground sm:py-24" aria-labelledby="oferta-titulo">
       <div className="mx-auto max-w-2xl px-5 sm:px-6">
         <Reveal>
-          <h2
-            id="oferta-titulo"
-            className="text-center text-balance-tight text-2xl font-extrabold sm:text-4xl"
-          >
-            Oferta de lançamento
-          </h2>
-          <p className="mx-auto mt-3 max-w-lg text-center text-sm text-navy-foreground/75 sm:text-base">
-            {/* ESCASSEZ CONFIGURÁVEL: ajuste o texto abaixo conforme a campanha ativa. */}
-            Preço promocional de lançamento por tempo limitado. Após o período, o valor volta para
-            R$297.
-          </p>
+          <div className="text-center">
+            <span
+              id="oferta-titulo"
+              className="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 text-xs font-bold uppercase tracking-[0.14em] text-accent"
+            >
+              <Zap className="h-3.5 w-3.5" aria-hidden="true" />
+              Oferta de lançamento
+            </span>
+            <p className="mx-auto mt-3 max-w-lg text-sm text-navy-foreground/75 sm:text-base">
+              Preço promocional de lançamento por tempo limitado. Após o período, o valor volta para
+              R$297.
+            </p>
+          </div>
         </Reveal>
 
         <Reveal delay={120}>
-          <div className="mt-9 rounded-3xl border border-navy-foreground/15 bg-navy-foreground/[0.07] p-6 shadow-[var(--shadow-elevate)] sm:p-9">
+          <div className="mt-7 rounded-3xl border border-navy-foreground/15 bg-navy-foreground/[0.07] p-6 shadow-[var(--shadow-elevate)] sm:p-9">
             <ul className="space-y-2 text-sm text-navy-foreground/80">
               <li className="flex items-center justify-between gap-3">
                 <span>Banco com 1.500+ questões comentadas</span>
