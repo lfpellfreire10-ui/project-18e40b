@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Hero, Autoridade, Dor } from "@/components/landing/SectionsTop";
-import { Metodo, ProvaVisual, OQueRecebe, Bonus } from "@/components/landing/SectionsMid";
+import { Metodo, ProvaVisual, OQueRecebe } from "@/components/landing/SectionsMid";
 import { Dados, Oferta, Garantia, Faq, CtaFinal } from "@/components/landing/SectionsBottom";
 
 const TITLE = "Chega de decorar resumo | 1.500+ Questões Comentadas de Residência";
@@ -37,9 +37,7 @@ function Index() {
       <ProvaVisual />
       {/* 6. O QUE VOCÊ RECEBE */}
       <OQueRecebe />
-      {/* 7. BÔNUS */}
-      <Bonus />
-      {/* 8. PROVA SOCIAL POR DADOS (sem depoimento pessoal) */}
+      {/* 7. PROVA SOCIAL POR DADOS (sem depoimento pessoal) */}
       <Dados />
       {/* 9. OFERTA E PREÇO */}
       <Oferta />
