@@ -92,15 +92,7 @@ export function Oferta() {
             <ul className="space-y-2 text-sm text-navy-foreground/80">
               <li className="flex items-center justify-between gap-3">
                 <span>Banco com 1.500+ questões comentadas</span>
-                <span className="shrink-0 line-through opacity-70">R$247</span>
-              </li>
-              <li className="flex items-center justify-between gap-3">
-                <span>Mapas mentais das grandes áreas</span>
-                <span className="shrink-0 line-through opacity-70">R$67</span>
-              </li>
-              <li className="flex items-center justify-between gap-3">
-                <span>Guia de erros clássicos + planilha de desempenho</span>
-                <span className="shrink-0 line-through opacity-70">R$84</span>
+                <span className="shrink-0 line-through opacity-70">R$297</span>
               </li>
             </ul>
 
