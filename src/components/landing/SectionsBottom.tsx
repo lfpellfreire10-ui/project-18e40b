@@ -112,12 +112,13 @@ export function Oferta() {
                 Hoje você investe
               </p>
               <p className="mt-1 font-display text-5xl font-extrabold sm:text-6xl">
-                R$59,90
+                R$79,90
               </p>
               <p className="mt-2 text-sm text-navy-foreground/80">
-                ou <strong className="font-semibold text-navy-foreground">6x de R$9,98</strong> no
+                ou <strong className="font-semibold text-navy-foreground">6x de R$13,32</strong> no
                 cartão
               </p>
+
 
               <div className="mt-7">
                 {/* CHECKOUT KIWIFY: o link é definido em src/components/landing/CtaButton.tsx (CHECKOUT_URL) */}
@@ -234,7 +235,7 @@ export function CtaFinal() {
       <div className="mx-auto max-w-2xl px-5 text-center sm:px-6">
         <Reveal>
           <h2 id="cta-final" className="text-balance-tight text-2xl font-extrabold sm:text-4xl">
-            1.500+ questões comentadas de 15 provas. R$59,90, com garantia de 7 dias.
+            1.500+ questões comentadas de 15 provas. R$79,90, com garantia de 7 dias.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-navy-foreground/80">
             Este material reúne as questões reais de ENARE, UERJ, UNIFESP e SUS-SP com o raciocínio clínico
@@ -243,12 +244,13 @@ export function CtaFinal() {
           </p>
           <div className="mt-8 flex flex-col items-center gap-3">
             <CtaButton size="xl" pulse className="max-w-md">
-              Comprar agora por R$59,90
+              Comprar agora por R$79,90
             </CtaButton>
             <p className="text-xs text-navy-foreground/70">
-              Acesso imediato · 6x de R$9,98 · reembolso em 7 dias
+              Acesso imediato · 6x de R$13,32 · reembolso em 7 dias
             </p>
           </div>
+
         </Reveal>
       </div>
       <footer className="mx-auto mt-14 max-w-3xl border-t border-navy-foreground/15 px-5 pt-6 text-center text-xs leading-relaxed text-navy-foreground/55 sm:px-6">

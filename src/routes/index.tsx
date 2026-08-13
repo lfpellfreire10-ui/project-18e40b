@@ -5,7 +5,8 @@ import { Dados, Oferta, Garantia, Faq, CtaFinal } from "@/components/landing/Sec
 
 const TITLE = "Chega de decorar resumo | 1.500+ Questões Comentadas de Residência";
 const DESCRIPTION =
-  "Resolva e entenda mais de 1.500 questões comentadas, extraídas das principais provas de residência médica. Por R$59,90 em até 6x.";
+  "Resolva e entenda mais de 1.500 questões comentadas, extraídas das principais provas de residência médica. Por R$79,90 em até 6x.";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({

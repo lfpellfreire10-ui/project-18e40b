@@ -31,7 +31,7 @@ export function Hero() {
         </Reveal>
 
         <Reveal delay={80}>
-          <h1 className="mt-6 text-center text-balance-tight text-[2rem] font-extrabold leading-[1.1] sm:text-5xl">
+          <h1 className="mt-6 text-center text-balance-tight text-[1.75rem] font-extrabold leading-[1.12] sm:text-4xl">
             Chega de decorar resumo. Resolva e entenda mais de 1.500 questões comentadas, extraídas das principais provas de residência médica
           </h1>
         </Reveal>
@@ -75,7 +75,7 @@ export function Hero() {
         <Reveal delay={280}>
           <div className="mt-8 flex flex-col items-center gap-3">
             <CtaButton size="xl" className="max-w-md cta-glow-hover">
-              Quero o banco de questões por R$59,90
+              Quero o banco de questões por R$79,90
             </CtaButton>
             <p className="text-xs text-navy-foreground/70">
               Acesso imediato · em até 6x no cartão · garantia de 7 dias
