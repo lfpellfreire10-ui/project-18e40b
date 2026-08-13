@@ -1,4 +1,4 @@
-import { ShieldCheck, BadgeCheck, CalendarClock, Lock, CreditCard } from "lucide-react";
+import { ShieldCheck, BadgeCheck, CalendarClock, Lock, CreditCard, Zap } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { CtaButton } from "./CtaButton";
 import {
