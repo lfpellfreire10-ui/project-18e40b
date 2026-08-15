@@ -75,10 +75,13 @@ export function Hero() {
         <Reveal delay={280}>
           <div className="mt-8 flex flex-col items-center gap-3">
             <CtaButton size="xl" className="max-w-md cta-glow-hover">
-              Quero o banco de questões por R$79,90
+              Quero o banco de questões por R$69,90
             </CtaButton>
-            <p className="text-xs text-navy-foreground/70">
+            <p className="text-center text-xs text-navy-foreground/70">
               Acesso imediato · em até 6x no cartão · garantia de 7 dias
+            </p>
+            <p className="text-center text-xs font-semibold text-accent">
+              Bônus: mapa mental até o fim do mês na área de membros
             </p>
           </div>
         </Reveal>
