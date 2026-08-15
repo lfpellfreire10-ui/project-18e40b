@@ -1,8 +1,8 @@
 import { Check, X, BookOpen, Brain, FileCheck2, RefreshCw, Smartphone, ListChecks, Sparkles } from "lucide-react";
 import { Reveal } from "./Reveal";
-import questao1 from "@/assets/questao-1.jpg";
-import questao2 from "@/assets/questao-2.jpg";
-import questao3 from "@/assets/questao-3.jpg";
+import gabarito1 from "@/assets/gabarito-4643.jpg.asset.json";
+import gabarito2 from "@/assets/gabarito-4641.jpg.asset.json";
+import gabarito3 from "@/assets/gabarito-4647.jpg.asset.json";
 
 export function Metodo() {
   const resumo = [
