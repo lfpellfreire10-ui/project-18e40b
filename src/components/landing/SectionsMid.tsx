@@ -1,8 +1,8 @@
 import { Check, X, BookOpen, Brain, FileCheck2, RefreshCw, Smartphone, ListChecks, Sparkles } from "lucide-react";
 import { Reveal } from "./Reveal";
-import questao1 from "@/assets/questao-1.jpg";
-import questao2 from "@/assets/questao-2.jpg";
-import questao3 from "@/assets/questao-3.jpg";
+import gabarito1 from "@/assets/gabarito-4643.jpg.asset.json";
+import gabarito2 from "@/assets/gabarito-4641.jpg.asset.json";
+import gabarito3 from "@/assets/gabarito-4647.jpg.asset.json";
 
 export function Metodo() {
   const resumo = [
@@ -79,19 +79,19 @@ export function Metodo() {
 
 const amostras = [
   {
-    src: questao1,
-    titulo: "Questão + gabarito comentado",
-    desc: "Enunciado real, alternativa correta destacada e comentário explicando o raciocínio lógico passo a passo.",
+    src: gabarito1.url,
+    titulo: "ENARE 2025 · Tumoração anexial",
+    desc: "Comentário completo com raciocínio clínico, diagnósticos diferenciais e imagem de ultrassonografia do caso.",
   },
   {
-    src: questao2,
-    titulo: "Comentário estruturado",
-    desc: "Raciocínio clínico, diagnóstico diferencial e o motivo de cada alternativa errada, com ilustrações quando necessário.",
+    src: gabarito2.url,
+    titulo: "ENARE 2025 · Diverticulite aguda",
+    desc: "Classificação de Hinchey destrinchada e tabela de conduta por estágio para fixar a decisão da prova.",
   },
   {
-    src: questao3,
-    titulo: "Mapa mental de fechamento",
-    desc: "Síntese visual do tema para revisão rápida nas semanas finais (bônus incluso).",
+    src: gabarito3.url,
+    titulo: "UERJ 2021 · Hérnia femoral",
+    desc: "Anatomia do canal femoral e comparação entre as técnicas de correção, com ilustração anatômica anotada.",
   },
 ];
 
@@ -131,14 +131,12 @@ export function ProvaVisual() {
                     {a.titulo}
                   </span>
                 </div>
-                <div className="overflow-hidden bg-card">
+                <div className="aspect-[3/4] overflow-hidden bg-white sm:aspect-[4/5]">
                   <img
                     src={a.src}
-                    alt={`Exemplo de ${a.titulo.toLowerCase()} do banco de questões de residência médica`}
-                    width={1280}
-                    height={864}
+                    alt={`Gabarito comentado — ${a.titulo} — do banco de questões de residência médica`}
                     loading="lazy"
-                    className="w-full transition-transform duration-500 ease-out group-hover:scale-[1.06]"
+                    className="h-full w-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.06]"
                   />
                 </div>
                 <figcaption className="px-4 py-4 text-sm leading-relaxed text-navy-foreground/75">
