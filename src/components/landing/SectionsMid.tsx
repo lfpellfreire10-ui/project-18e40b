@@ -79,19 +79,19 @@ export function Metodo() {
 
 const amostras = [
   {
-    src: questao1,
-    titulo: "Questão + gabarito comentado",
-    desc: "Enunciado real, alternativa correta destacada e comentário explicando o raciocínio lógico passo a passo.",
+    src: gabarito1.url,
+    titulo: "ENARE 2025 · Tumoração anexial",
+    desc: "Comentário completo com raciocínio clínico, diagnósticos diferenciais e imagem de ultrassonografia do caso.",
   },
   {
-    src: questao2,
-    titulo: "Comentário estruturado",
-    desc: "Raciocínio clínico, diagnóstico diferencial e o motivo de cada alternativa errada, com ilustrações quando necessário.",
+    src: gabarito2.url,
+    titulo: "ENARE 2025 · Diverticulite aguda",
+    desc: "Classificação de Hinchey destrinchada e tabela de conduta por estágio para fixar a decisão da prova.",
   },
   {
-    src: questao3,
-    titulo: "Mapa mental de fechamento",
-    desc: "Síntese visual do tema para revisão rápida nas semanas finais (bônus incluso).",
+    src: gabarito3.url,
+    titulo: "UERJ 2021 · Hérnia femoral",
+    desc: "Anatomia do canal femoral e comparação entre as técnicas de correção, com ilustração anatômica anotada.",
   },
 ];
 
