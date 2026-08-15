@@ -131,14 +131,12 @@ export function ProvaVisual() {
                     {a.titulo}
                   </span>
                 </div>
-                <div className="overflow-hidden bg-card">
+                <div className="aspect-[3/4] overflow-hidden bg-white sm:aspect-[4/5]">
                   <img
                     src={a.src}
-                    alt={`Exemplo de ${a.titulo.toLowerCase()} do banco de questões de residência médica`}
-                    width={1280}
-                    height={864}
+                    alt={`Gabarito comentado — ${a.titulo} — do banco de questões de residência médica`}
                     loading="lazy"
-                    className="w-full transition-transform duration-500 ease-out group-hover:scale-[1.06]"
+                    className="h-full w-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.06]"
                   />
                 </div>
                 <figcaption className="px-4 py-4 text-sm leading-relaxed text-navy-foreground/75">
