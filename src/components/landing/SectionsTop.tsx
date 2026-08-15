@@ -80,9 +80,6 @@ export function Hero() {
             <p className="text-center text-xs text-navy-foreground/70">
               Acesso imediato · em até 6x no cartão · garantia de 7 dias
             </p>
-            <p className="text-center text-xs font-semibold text-accent">
-              Bônus: mapa mental até o fim do mês na área de membros
-            </p>
           </div>
         </Reveal>
 
