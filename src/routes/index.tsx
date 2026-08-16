@@ -2,6 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Hero, Autoridade, Dor } from "@/components/landing/SectionsTop";
 import { Metodo, ProvaVisual, OQueRecebe } from "@/components/landing/SectionsMid";
 import { Dados, Oferta, Garantia, Faq, CtaFinal } from "@/components/landing/SectionsBottom";
+import { TopOfferBar, StickyCtaBar } from "@/components/landing/Bars";
 
 const TITLE = "Chega de decorar resumo | 1.500+ Questões Comentadas de Residência";
 const DESCRIPTION =
@@ -24,7 +25,8 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <main>
+    <main className="pb-24">
+      <TopOfferBar />
       {/* 1. HERO — inclui espaço reservado para o vídeo de vendas */}
       <Hero />
       {/* 2. AUTORIDADE — credencial por fatos, sem foto/identidade */}
@@ -47,6 +49,7 @@ function Index() {
       <Faq />
       {/* 12. CTA FINAL */}
       <CtaFinal />
+      <StickyCtaBar />
     </main>
   );
 }
