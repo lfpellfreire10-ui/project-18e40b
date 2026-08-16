@@ -16,9 +16,9 @@ export function VturbPlayer() {
 
   return (
     <div
-      className="mx-auto w-full max-w-2xl overflow-hidden rounded-2xl border border-navy-foreground/15 shadow-[var(--shadow-elevate)]"
+      className="mx-auto w-full max-w-[320px] overflow-hidden rounded-2xl border border-navy-foreground/15 shadow-[var(--shadow-elevate)]"
       dangerouslySetInnerHTML={{
-        __html: `<vturb-smartplayer id="${PLAYER_ID}" style="display:block;margin:0 auto;width:100%"><div class="vturb-player-placeholder" style="position:relative;width:100%;padding:56.25% 0 0;z-index:0;background-color:black"></div></vturb-smartplayer>`,
+        __html: `<vturb-smartplayer id="${PLAYER_ID}" style="display:block;margin:0 auto;width:100%;max-width:320px"><div class="vturb-player-placeholder" style="position:relative;width:100%;padding:177.77777777777777% 0 0;z-index:0;background-color:black"></div></vturb-smartplayer>`,
       }}
     />
   );
