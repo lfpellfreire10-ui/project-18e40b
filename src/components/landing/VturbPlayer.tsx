@@ -15,12 +15,12 @@ export function VturbPlayer() {
   }, []);
 
   return (
-    <div className="mx-auto w-full max-w-2xl">
-      {/* Caixa 16:9 fixa: o player é forçado a preencher a caixa (o script do VTurb
+    <div className="mx-auto w-full max-w-[400px]">
+      {/* Caixa 9:16 fixa (vídeo vertical): o player é forçado a preencher a caixa (o script do VTurb
           injeta um padding próprio que estouraria a altura). */}
       <div
         className={[
-          "relative aspect-video overflow-hidden rounded-2xl border border-navy-foreground/15 bg-navy-deep shadow-[var(--shadow-elevate)]",
+          "relative aspect-[9/16] overflow-hidden rounded-2xl border border-navy-foreground/15 bg-navy-deep shadow-[var(--shadow-elevate)]",
           "[&_vturb-smartplayer]:absolute [&_vturb-smartplayer]:inset-0 [&_vturb-smartplayer]:!max-w-none [&_vturb-smartplayer]:!h-full [&_vturb-smartplayer]:!w-full",
           "[&_div]:!static [&_div]:!h-full [&_div]:!w-full [&_div]:!p-0",
           "[&_img]:!absolute [&_img]:!inset-0 [&_img]:!h-full [&_img]:!w-full [&_img]:!object-cover",
