@@ -36,41 +36,13 @@ export function Hero() {
           </h1>
         </Reveal>
 
-        {/* ==========================================================
-            VÍDEO DE VENDAS — player 16:9 centralizado. Insira aqui o embed
-            (YouTube / Vimeo / Wistia). Substitua o bloco <button> abaixo por:
-            <iframe
-              className="absolute inset-0 h-full w-full"
-              src="https://www.youtube.com/embed/SEU_ID?rel=0"
-              title="Apresentação do material"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture"
-              allowFullScreen
-              loading="lazy"
-            />
-            O vídeo pode ser gravação de tela do material (sem rosto).
-        ========================================================== */}
+        {/* VÍDEO DE VENDAS — player VTurb (vertical) */}
         <Reveal delay={220}>
-          <div className="mx-auto mt-9 w-full max-w-2xl">
-            <div className="relative aspect-video overflow-hidden rounded-2xl border border-navy-foreground/15 bg-navy-deep shadow-[var(--shadow-elevate)]">
-              <div
-                className="absolute inset-0 bg-[radial-gradient(circle_at_50%_45%,_oklch(0.42_0.085_258/0.55),_transparent_65%)]"
-                aria-hidden="true"
-              />
-              <button
-                type="button"
-                className="group absolute inset-0 grid place-items-center focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring"
-                aria-label="Assistir apresentação do material"
-              >
-                <span className="grid h-16 w-16 place-items-center rounded-full bg-gradient-accent shadow-[var(--shadow-cta)] transition-transform duration-200 group-hover:scale-105 sm:h-20 sm:w-20">
-                  <Play className="h-7 w-7 translate-x-[1px] text-accent-foreground" fill="currentColor" aria-hidden="true" />
-                </span>
-                <span className="absolute bottom-4 text-xs font-medium uppercase tracking-[0.18em] text-navy-foreground/70">
-                  Veja o material por dentro · 2 min
-                </span>
-              </button>
-            </div>
+          <div className="mt-9">
+            <VturbPlayer />
           </div>
         </Reveal>
+
 
         <Reveal delay={280}>
           <div className="mt-8 flex flex-col items-center gap-3">
