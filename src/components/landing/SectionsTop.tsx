@@ -1,6 +1,7 @@
-import { Stethoscope, ShieldCheck, GraduationCap, Cross, Play, Clock, AlertTriangle, Layers } from "lucide-react";
+import { Stethoscope, GraduationCap, Cross, Clock, AlertTriangle, Layers } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { CtaButton } from "./CtaButton";
+import { VturbPlayer } from "./VturbPlayer";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const stats = [
