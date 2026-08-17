@@ -23,7 +23,7 @@ export function Hero() {
       />
       <div className="absolute inset-0 bg-navy-deep/50" aria-hidden="true" />
 
-      <div className="relative mx-auto max-w-3xl px-5 pb-16 pt-12 sm:px-6 sm:pb-20 sm:pt-16">
+      <div className="relative mx-auto max-w-3xl px-5 pb-16 pt-6 sm:px-6 sm:pb-20 sm:pt-10">
         <Reveal className="flex justify-center">
           <span className="inline-flex items-center gap-2 rounded-full border border-navy-foreground/20 bg-navy-foreground/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.14em] text-navy-foreground/85">
             <Stethoscope className="h-3.5 w-3.5" aria-hidden="true" />
@@ -32,8 +32,8 @@ export function Hero() {
         </Reveal>
 
         <Reveal delay={80}>
-          <h1 className="mt-6 text-center text-balance-tight text-[1.75rem] font-extrabold leading-[1.12] sm:text-4xl">
-            Chega de decorar resumo. Resolva e entenda mais de 1.500 questões comentadas, extraídas das principais provas de residência médica
+          <h1 className="mt-4 text-center text-balance-tight text-[1.45rem] font-extrabold leading-[1.15] sm:mt-5 sm:text-[1.9rem]">
+            Chega de decorar resumo. Resolva e entenda mais de 1500 questões comentadas
           </h1>
         </Reveal>
 
