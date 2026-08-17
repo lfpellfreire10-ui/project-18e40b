@@ -1,8 +1,8 @@
 import { Check, X, BookOpen, Brain, FileCheck2, RefreshCw, Smartphone, ListChecks, Sparkles } from "lucide-react";
 import { Reveal } from "./Reveal";
-import gabarito1 from "@/assets/gabarito-4643.jpg.asset.json";
-import gabarito2 from "@/assets/gabarito-4641.jpg.asset.json";
-import gabarito3 from "@/assets/gabarito-4647.jpg.asset.json";
+import gabarito1 from "@/assets/gabarito-diverticulite-aguda.jpg";
+import gabarito2 from "@/assets/gabarito-tumoracao-anexial.jpg";
+import gabarito3 from "@/assets/gabarito-iam-musculo-papilar.jpg";
 
 export function Metodo() {
   const resumo = [
@@ -79,19 +79,19 @@ export function Metodo() {
 
 const amostras = [
   {
-    src: gabarito1.url,
-    titulo: "ENARE 2025 · Tumoração anexial",
-    desc: "Comentário completo com raciocínio clínico, diagnósticos diferenciais e imagem de ultrassonografia do caso.",
-  },
-  {
-    src: gabarito2.url,
+    src: gabarito1,
     titulo: "ENARE 2025 · Diverticulite aguda",
     desc: "Classificação de Hinchey destrinchada e tabela de conduta por estágio para fixar a decisão da prova.",
   },
   {
-    src: gabarito3.url,
-    titulo: "UERJ 2021 · Hérnia femoral",
-    desc: "Anatomia do canal femoral e comparação entre as técnicas de correção, com ilustração anatômica anotada.",
+    src: gabarito2,
+    titulo: "ENARE 2025 · Tumoração anexial",
+    desc: "Comentário completo com raciocínio clínico, diagnósticos diferenciais e imagem de ultrassonografia do caso.",
+  },
+  {
+    src: gabarito3,
+    titulo: "UNIFESP 2025 · IAM e ruptura de papilar",
+    desc: "Correlação entre parede, derivações e artéria, com a conduta na insuficiência mitral aguda pós-infarto.",
   },
 ];
 
@@ -136,6 +136,7 @@ export function ProvaVisual() {
                     src={a.src}
                     alt={`Gabarito comentado — ${a.titulo} — do banco de questões de residência médica`}
                     loading="lazy"
+                    decoding="async"
                     className="h-full w-full object-cover object-top transition-transform duration-500 ease-out group-hover:scale-[1.06]"
                   />
                 </div>
