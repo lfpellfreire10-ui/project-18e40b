@@ -106,10 +106,10 @@ export function Oferta() {
                 Hoje você investe
               </p>
               <p className="mt-1 font-display text-5xl font-extrabold sm:text-6xl">
-                R$57,90
+                R$37,90
               </p>
               <p className="mt-2 text-sm text-navy-foreground/80">
-                ou <strong className="font-semibold text-navy-foreground">6x de R$9,65</strong> no
+                ou <strong className="font-semibold text-navy-foreground">6x de R$6,32</strong> no
                 cartão
               </p>
 
@@ -229,7 +229,7 @@ export function CtaFinal() {
       <div className="mx-auto max-w-2xl px-5 text-center sm:px-6">
         <Reveal>
           <h2 id="cta-final" className="text-balance-tight text-2xl font-extrabold sm:text-4xl">
-            1.500+ questões comentadas de 15 provas por R$57,90, com garantia de 7 dias.
+            1.500+ questões comentadas de 15 provas por R$37,90, com garantia de 7 dias.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-navy-foreground/80">
             Este material reúne as questões reais de ENARE, UERJ, UNIFESP e SUS-SP com o raciocínio clínico
@@ -237,10 +237,10 @@ export function CtaFinal() {
           </p>
           <div className="mt-8 flex flex-col items-center gap-3">
             <CtaButton size="xl" pulse className="max-w-md">
-              Comprar agora por R$57,90
+              Comprar agora por R$37,90
             </CtaButton>
             <p className="text-xs text-navy-foreground/70">
-              Acesso imediato · 6x de R$9,65 · reembolso em 7 dias
+              Acesso vitalício · 6x de R$6,32 · reembolso em 7 dias
             </p>
           </div>
 
