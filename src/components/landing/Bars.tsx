@@ -7,7 +7,7 @@ export function TopOfferBar() {
     <div className="sticky top-0 z-50 bg-gradient-accent text-accent-foreground">
       <p className="mx-auto flex max-w-5xl items-center justify-center gap-2 px-4 py-2 text-center text-[0.7rem] font-bold uppercase tracking-[0.12em] sm:text-xs">
         <Zap className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
-        Oferta de lançamento · R$69,90 em até 6x
+        Oferta de lançamento · R$57,90 em até 6x
       </p>
     </div>
   );
