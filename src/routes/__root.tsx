@@ -108,14 +108,13 @@ function RootShell({ children }: { children: ReactNode }) {
     <html lang="pt-BR">
       <head>
         <HeadContent />
-        {/* ==========================================================
-            TRACKING — insira aqui os scripts de mensuração:
-            (a) META ADS PIXEL:
-                <script dangerouslySetInnerHTML={{ __html: `!function(f,b,e,v,n,t,s){...}; fbq('init','SEU_PIXEL_ID'); fbq('track','PageView');` }} />
-            (b) UTMIFY:
-                <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck data-utmify-prevent-subids async defer />
-            Mantenha os scripts com async/defer para não bloquear o carregamento.
-        ========================================================== */}
+        <script
+          src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+          data-utmify-prevent-xcod-sck=""
+          data-utmify-prevent-subids=""
+          async
+          defer
+        />
       </head>
       <body>
         {children}
