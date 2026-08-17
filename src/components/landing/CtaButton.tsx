@@ -1,10 +1,9 @@
 import { cn } from "@/lib/utils";
 
 /**
- * CHECKOUT: substitua CHECKOUT_URL pelo link do checkout da Kiwify.
- * Ex.: https://pay.kiwify.com.br/xxxxxxx
+ * CHECKOUT: link do checkout da Kiwify.
  */
-export const CHECKOUT_URL = "#checkout-kiwify";
+export const CHECKOUT_URL = "https://pay.kiwify.com.br/fKPSprg";
 
 export function CtaButton({
   children,
