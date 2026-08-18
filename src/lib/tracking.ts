@@ -47,7 +47,7 @@ export function trackOnce(key: string, event: string, params?: Params) {
 
 /** Clique em qualquer CTA de checkout. `origin` identifica o botão. */
 export function trackCheckoutClick(origin: string) {
-  track("InitiateCheckout", { origin, value: 37.9, currency: "BRL" });
+  track("InitiateCheckout", { origin, value: 27.9, currency: "BRL" });
 }
 
 /** Visitante alcançou uma seção-chave da página (uma vez por sessão). */
