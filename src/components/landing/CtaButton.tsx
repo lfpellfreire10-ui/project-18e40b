@@ -2,9 +2,9 @@ import { cn } from "@/lib/utils";
 import { trackCheckoutClick } from "@/lib/tracking";
 
 /**
- * CHECKOUT: link do checkout da Kiwify.
+ * CHECKOUT: link do checkout da Cakto.
  */
-export const CHECKOUT_URL = "https://pay.kiwify.com.br/fKPSprg";
+export const CHECKOUT_URL = "https://pay.cakto.com.br/39kvhgs_1049409";
 
 export function CtaButton({
   children,

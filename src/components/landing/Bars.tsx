@@ -8,7 +8,7 @@ export function TopOfferBar() {
     <div className="sticky top-0 z-50 bg-gradient-accent text-accent-foreground">
       <p className="mx-auto flex max-w-5xl items-center justify-center gap-2 px-4 py-2 text-center text-[0.7rem] font-bold uppercase tracking-[0.12em] sm:text-xs">
         <Zap className="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
-        Preço por tempo limitado · R$27,90 · Garantia de 7 dias · Acesso vitalício
+        Preço por tempo limitado · R$57,90 · Garantia de 7 dias · Acesso vitalício
       </p>
     </div>
   );
