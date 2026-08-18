@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { trackCheckoutClick } from "@/lib/tracking";
 
 /**
  * CHECKOUT: link do checkout da Kiwify.
@@ -10,11 +11,14 @@ export function CtaButton({
   className,
   size = "lg",
   pulse = false,
+  origin = "cta",
 }: {
   children: React.ReactNode;
   className?: string;
   size?: "md" | "lg" | "xl";
   pulse?: boolean;
+  /** Identifica qual CTA foi clicado nas métricas (hero, oferta, cta_final...). */
+  origin?: string;
 }) {
   const sizes = {
     md: "px-6 py-3 text-sm",
@@ -25,6 +29,7 @@ export function CtaButton({
   return (
     <a
       href={CHECKOUT_URL}
+      onClick={() => trackCheckoutClick(origin)}
       className={cn(
         "group inline-flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-accent font-display font-bold tracking-tight text-accent-foreground",
         "shadow-[var(--shadow-cta)] transition-all duration-200 ease-out",

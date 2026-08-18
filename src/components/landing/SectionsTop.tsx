@@ -47,7 +47,7 @@ export function Hero() {
 
         <Reveal delay={280}>
           <div className="mt-8 flex flex-col items-center gap-3">
-            <CtaButton size="xl" className="max-w-md cta-glow-hover">
+            <CtaButton size="xl" className="max-w-md cta-glow-hover" origin="hero">
               Quero o banco de questões por R$37,90
             </CtaButton>
             <p className="text-center text-xs text-navy-foreground/70">

@@ -1,20 +1,24 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { cn } from "@/lib/utils";
+import { trackSectionView } from "@/lib/tracking";
 
 /**
  * Scroll-reveal discreto (fade-in + slide-up).
  * `delay` em ms permite entrada sequencial (stagger) em listas.
+ * `trackId` registra, uma única vez, que o visitante alcançou a seção.
  */
 export function Reveal({
   children,
   delay = 0,
   className,
   as: Tag = "div",
+  trackId,
 }: {
   children: ReactNode;
   delay?: number;
   className?: string;
   as?: "div" | "li" | "section" | "article";
+  trackId?: string;
 }) {
   const ref = useRef<HTMLElement | null>(null);
   const [visible, setVisible] = useState(false);
@@ -27,6 +31,7 @@ export function Reveal({
         for (const entry of entries) {
           if (entry.isIntersecting) {
             setVisible(true);
+            if (trackId) trackSectionView(trackId);
             io.disconnect();
           }
         }
@@ -35,7 +40,7 @@ export function Reveal({
     );
     io.observe(el);
     return () => io.disconnect();
-  }, []);
+  }, [trackId]);
 
   return (
     <Tag

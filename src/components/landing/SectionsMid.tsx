@@ -102,7 +102,7 @@ export function ProvaVisual() {
       aria-labelledby="prova-visual"
     >
       <div className="mx-auto max-w-6xl px-5 sm:px-6">
-        <Reveal>
+        <Reveal trackId="prova_visual">
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-accent">
             Veja antes de comprar
           </p>

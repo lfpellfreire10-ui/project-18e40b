@@ -73,7 +73,7 @@ export function Oferta() {
   return (
     <section id="oferta" className="bg-gradient-navy py-16 text-navy-foreground sm:py-24" aria-labelledby="oferta-titulo">
       <div className="mx-auto max-w-2xl px-5 sm:px-6">
-        <Reveal>
+        <Reveal trackId="oferta">
           <div className="text-center">
             <span
               id="oferta-titulo"
@@ -116,7 +116,7 @@ export function Oferta() {
 
               <div className="mt-7">
                 {/* CHECKOUT KIWIFY: o link é definido em src/components/landing/CtaButton.tsx (CHECKOUT_URL) */}
-                <CtaButton size="xl" pulse className="w-full">
+                <CtaButton size="xl" pulse className="w-full" origin="oferta">
                   Garantir meu acesso agora
                 </CtaButton>
               </div>
@@ -195,7 +195,7 @@ export function Faq() {
   return (
     <section className="bg-secondary/60 py-16 sm:py-20" aria-labelledby="faq">
       <div className="mx-auto max-w-3xl px-5 sm:px-6">
-        <Reveal>
+        <Reveal trackId="faq">
           <h2 id="faq" className="text-balance-tight text-2xl font-extrabold sm:text-4xl">
             Perguntas frequentes
           </h2>
@@ -236,7 +236,7 @@ export function CtaFinal() {
             destrinchado alternativa por alternativa — com raciocínio lógico, ilustrações e gabaritos bem explicados.
           </p>
           <div className="mt-8 flex flex-col items-center gap-3">
-            <CtaButton size="xl" pulse className="max-w-md">
+            <CtaButton size="xl" pulse className="max-w-md" origin="cta_final">
               Comprar agora por R$37,90
             </CtaButton>
             <p className="text-xs text-navy-foreground/70">
