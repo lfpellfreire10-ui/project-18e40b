@@ -6,7 +6,7 @@ import { TopOfferBar, StickyCtaBar } from "@/components/landing/Bars";
 
 const TITLE = "Chega de decorar resumo | 1.500+ Questões Comentadas de Residência";
 const DESCRIPTION =
-  "Resolva e entenda mais de 1.500 questões comentadas, extraídas das principais provas de residência médica. Por R$37,90 com garantia de 7 dias.";
+  "Resolva e entenda mais de 1.500 questões comentadas, extraídas das principais provas de residência médica. Por R$27,90 com garantia de 7 dias.";
 
 
 export const Route = createFileRoute("/")({
