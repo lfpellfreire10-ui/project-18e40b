@@ -116,7 +116,7 @@ export function Oferta() {
 
               <div className="mt-7">
                 {/* CHECKOUT KIWIFY: o link é definido em src/components/landing/CtaButton.tsx (CHECKOUT_URL) */}
-                <CtaButton size="xl" pulse className="w-full">
+                <CtaButton size="xl" pulse className="w-full" origin="oferta">
                   Garantir meu acesso agora
                 </CtaButton>
               </div>
