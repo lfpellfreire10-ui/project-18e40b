@@ -73,7 +73,7 @@ export function Oferta() {
   return (
     <section id="oferta" className="bg-gradient-navy py-16 text-navy-foreground sm:py-24" aria-labelledby="oferta-titulo">
       <div className="mx-auto max-w-2xl px-5 sm:px-6">
-        <Reveal>
+        <Reveal trackId="oferta">
           <div className="text-center">
             <span
               id="oferta-titulo"
