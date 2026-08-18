@@ -195,7 +195,7 @@ export function Faq() {
   return (
     <section className="bg-secondary/60 py-16 sm:py-20" aria-labelledby="faq">
       <div className="mx-auto max-w-3xl px-5 sm:px-6">
-        <Reveal>
+        <Reveal trackId="faq">
           <h2 id="faq" className="text-balance-tight text-2xl font-extrabold sm:text-4xl">
             Perguntas frequentes
           </h2>
