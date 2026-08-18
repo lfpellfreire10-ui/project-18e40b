@@ -1,5 +1,6 @@
 import { Zap } from "lucide-react";
 import { CHECKOUT_URL } from "./CtaButton";
+import { trackCheckoutClick } from "@/lib/tracking";
 
 /** Barra fixa no topo com o selo de oferta de lançamento. */
 export function TopOfferBar() {
