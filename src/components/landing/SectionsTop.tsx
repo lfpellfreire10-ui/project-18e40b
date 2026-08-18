@@ -33,7 +33,7 @@ export function Hero() {
 
         <Reveal delay={80}>
           <h1 className="mt-4 text-center text-balance-tight text-[1.45rem] font-extrabold leading-[1.15] sm:mt-5 sm:text-[1.9rem]">
-            Chega de decorar resumo. Resolva e entenda mais de 1500 questões comentadas
+            Chega de decorar resumo. Resolva e entenda mais de 1500 questões comentadas de medicina
           </h1>
         </Reveal>
 
