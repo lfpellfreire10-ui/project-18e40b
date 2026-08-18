@@ -106,16 +106,16 @@ export function Oferta() {
                 Hoje você investe
               </p>
               <p className="mt-1 font-display text-5xl font-extrabold sm:text-6xl">
-                R$27,90
+                R$57,90
               </p>
               <p className="mt-2 text-sm text-navy-foreground/80">
-                ou <strong className="font-semibold text-navy-foreground">6x de R$4,65</strong> no
+                ou <strong className="font-semibold text-navy-foreground">6x de R$9,65</strong> no
                 cartão
               </p>
 
 
               <div className="mt-7">
-                {/* CHECKOUT KIWIFY: o link é definido em src/components/landing/CtaButton.tsx (CHECKOUT_URL) */}
+                {/* CHECKOUT CAKTO: o link é definido em src/components/landing/CtaButton.tsx (CHECKOUT_URL) */}
                 <CtaButton size="xl" pulse className="w-full" origin="oferta">
                   Garantir meu acesso agora
                 </CtaButton>
@@ -154,7 +154,7 @@ export function Garantia() {
             </h2>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
               Acesse todo o conteúdo. Se concluir que o material não serve para a sua preparação,
-              basta solicitar reembolso em até 7 dias pela plataforma Kiwify. Devolução integral, sem
+              basta solicitar reembolso em até 7 dias pela plataforma Cakto. Devolução integral, sem
               justificativa.
             </p>
           </div>
@@ -179,7 +179,7 @@ const faq = [
   },
   {
     q: "Como recebo o acesso?",
-    a: "Imediatamente após a confirmação do pagamento, o acesso é liberado por e-mail pela plataforma Kiwify. O material é digital, otimizado para celular, e pode ser baixado para estudo offline.",
+    a: "Imediatamente após a confirmação do pagamento, o acesso é liberado por e-mail pela plataforma Cakto. O material é digital, otimizado para celular, e pode ser baixado para estudo offline.",
   },
   {
     q: "Serve para quem está no internato ou já formado?",
@@ -229,7 +229,7 @@ export function CtaFinal() {
       <div className="mx-auto max-w-2xl px-5 text-center sm:px-6">
         <Reveal>
           <h2 id="cta-final" className="text-balance-tight text-2xl font-extrabold sm:text-4xl">
-            1.500+ questões comentadas de 15 provas por R$27,90, com garantia de 7 dias.
+            1.500+ questões comentadas de 15 provas por R$57,90, com garantia de 7 dias.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-navy-foreground/80">
             Este material reúne as questões reais de ENARE, UERJ, UNIFESP e SUS-SP com o raciocínio clínico
@@ -237,10 +237,10 @@ export function CtaFinal() {
           </p>
           <div className="mt-8 flex flex-col items-center gap-3">
             <CtaButton size="xl" pulse className="max-w-md" origin="cta_final">
-              Comprar agora por R$27,90
+              Comprar agora por R$57,90
             </CtaButton>
             <p className="text-xs text-navy-foreground/70">
-              Acesso vitalício · 6x de R$4,65 · reembolso em 7 dias
+              Acesso vitalício · 6x de R$9,65 · reembolso em 7 dias
             </p>
           </div>
 
@@ -249,7 +249,7 @@ export function CtaFinal() {
       <footer className="mx-auto mt-14 max-w-3xl border-t border-navy-foreground/15 px-5 pt-6 text-center text-xs leading-relaxed text-navy-foreground/55 sm:px-6">
         <p>
           Material de estudo independente, sem vínculo institucional com ENARE, UERJ ou USP. Pagamento
-          processado pela Kiwify.
+          processado pela Cakto.
         </p>
       </footer>
     </section>
