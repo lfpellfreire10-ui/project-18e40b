@@ -236,7 +236,7 @@ export function CtaFinal() {
             destrinchado alternativa por alternativa — com raciocínio lógico, ilustrações e gabaritos bem explicados.
           </p>
           <div className="mt-8 flex flex-col items-center gap-3">
-            <CtaButton size="xl" pulse className="max-w-md">
+            <CtaButton size="xl" pulse className="max-w-md" origin="cta_final">
               Comprar agora por R$37,90
             </CtaButton>
             <p className="text-xs text-navy-foreground/70">
