@@ -1,4 +1,5 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
+import { trackOnce } from "@/lib/tracking";
 
 const PLAYER_ID = "vid-6a821c358eb1f48097ecca80";
 const SCRIPT_SRC =
@@ -6,6 +7,8 @@ const SCRIPT_SRC =
 
 /** Player de vendas VTurb (vertical). O script é injetado após a hidratação. */
 export function VturbPlayer() {
+  const boxRef = useRef<HTMLDivElement | null>(null);
+
   useEffect(() => {
     if (document.querySelector(`script[src="${SCRIPT_SRC}"]`)) return;
     const s = document.createElement("script");
@@ -14,8 +17,38 @@ export function VturbPlayer() {
     document.head.appendChild(s);
   }, []);
 
+  // Métricas: vídeo visto em tela + play iniciado (uma vez por sessão).
+  useEffect(() => {
+    const el = boxRef.current;
+    if (!el) return;
+
+    const io = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            trackOnce("video:view", "VideoView", { player: PLAYER_ID });
+            io.disconnect();
+          }
+        }
+      },
+      { threshold: 0.4 },
+    );
+    io.observe(el);
+
+    const onPlay = () => trackOnce("video:play", "VideoPlay", { player: PLAYER_ID });
+    // O VTurb renderiza um <video> nativo dentro do custom element; o evento
+    // "play" faz bubbling via captura. Se a API mudar, o listener é inofensivo.
+    el.addEventListener("play", onPlay, true);
+    el.addEventListener("click", onPlay, { once: true });
+
+    return () => {
+      io.disconnect();
+      el.removeEventListener("play", onPlay, true);
+    };
+  }, []);
+
   return (
-    <div className="mx-auto w-full max-w-[400px]">
+    <div className="mx-auto w-full max-w-[400px]" ref={boxRef}>
       {/* Caixa 9:16 fixa (vídeo vertical): o player é forçado a preencher a caixa (o script do VTurb
           injeta um padding próprio que estouraria a altura). */}
       <div
@@ -33,4 +66,3 @@ export function VturbPlayer() {
     </div>
   );
 }
-
