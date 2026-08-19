@@ -248,6 +248,27 @@ export function CtaFinal() {
       </div>
       <footer className="mx-auto mt-14 max-w-3xl border-t border-navy-foreground/15 px-5 pt-6 text-center text-xs leading-relaxed text-navy-foreground/55 sm:px-6">
         <p>
+          Conteúdo produzido pelo Grupo Humanus — amigos médicos aprovados na residência médica.
+          Dúvidas:{" "}
+          <a
+            href="https://instagram.com/grupohumanus__"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-navy-foreground/80 underline"
+          >
+            @grupohumanus__
+          </a>{" "}
+          ·{" "}
+          <a
+            href="https://wa.me/5521936185405"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-navy-foreground/80 underline"
+          >
+            suporte 21 93618-5405
+          </a>
+        </p>
+        <p className="mt-3">
           Material de estudo independente, sem vínculo institucional com ENARE, UERJ ou USP. Pagamento
           processado pela Cakto.
         </p>
