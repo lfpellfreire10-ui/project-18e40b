@@ -1,13 +1,28 @@
 import { MessageCircle, Instagram } from "lucide-react";
 import { Reveal } from "./Reveal";
-import p1 from "@/assets/prova-social-1.jpeg.asset.json";
-import p2 from "@/assets/prova-social-2.jpeg.asset.json";
-import p3 from "@/assets/prova-social-3.jpeg.asset.json";
+import p1 from "@/assets/prova-social-1.jpg";
+import p2 from "@/assets/prova-social-2.jpg";
+import p3 from "@/assets/prova-social-3.jpg";
 
 const prints = [
-  { src: p1.url, alt: "Conversa de aluno elogiando o material de questões comentadas para o ENARE" },
-  { src: p2.url, alt: "Mensagem de aluno relatando melhora de rendimento com o banco de questões" },
-  { src: p3.url, alt: "Conversa de aluna indicada por amiga sobre o material do Grupo Humanus" },
+  {
+    src: p1,
+    width: 900,
+    height: 1839,
+    alt: "Conversa de aluno elogiando o material de questões comentadas para o ENARE",
+  },
+  {
+    src: p2,
+    width: 900,
+    height: 1951,
+    alt: "Mensagem de aluno relatando melhora de rendimento com o banco de questões",
+  },
+  {
+    src: p3,
+    width: 900,
+    height: 1831,
+    alt: "Conversa de aluna indicada por amiga sobre o material do Grupo Humanus",
+  },
 ];
 
 export const INSTAGRAM_HANDLE = "@grupohumanus__";
@@ -17,7 +32,10 @@ export const WHATSAPP_URL = "https://wa.me/5521936185405";
 
 export function ProvaSocial() {
   return (
-    <section className="mx-auto max-w-5xl px-5 py-16 sm:px-6 sm:py-20" aria-labelledby="prova-social">
+    <section
+      className="mx-auto max-w-5xl px-5 py-16 sm:px-6 sm:py-20"
+      aria-labelledby="prova-social"
+    >
       <Reveal trackId="prova_social">
         <p className="text-xs font-bold uppercase tracking-[0.18em] text-navy-soft">
           Quem já está estudando
@@ -41,9 +59,11 @@ export function ProvaSocial() {
               <img
                 src={p.src}
                 alt={p.alt}
+                width={p.width}
+                height={p.height}
                 loading="lazy"
                 decoding="async"
-                className="w-full object-contain"
+                className="h-auto w-full object-contain"
               />
             </figure>
           </Reveal>
