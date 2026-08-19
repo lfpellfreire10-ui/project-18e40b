@@ -167,7 +167,7 @@ export function Garantia() {
 const faq = [
   {
     q: "Quem preparou esse material?",
-    a: "O material foi preparado por médicos aprovados no ano de residência, com experiência direta nas provas de ENARE, UERJ, UNIFESP e SUS-SP. A credibilidade está no processo: enunciados conferidos contra o documento original da banca, gabaritos construídos com raciocínio clínico e raciocínio lógico, ilustrações para fixar conceitos, e revisão final contra diretrizes vigentes. Você pode avaliar a qualidade pelos exemplos reais exibidos nesta página antes de comprar.",
+    a: "O conteúdo foi produzido pelo Grupo Humanus: amigos médicos que estudaram juntos e passaram na residência médica, com experiência direta nas provas de ENARE, UERJ, UNIFESP e SUS-SP. A credibilidade está no processo: enunciados conferidos contra o documento original da banca, gabaritos construídos com raciocínio clínico e raciocínio lógico, ilustrações para fixar conceitos, e revisão final contra diretrizes vigentes. Você pode avaliar a qualidade pelos exemplos reais exibidos nesta página antes de comprar.",
   },
   {
     q: "Quais provas e instituições estão incluídas?",
