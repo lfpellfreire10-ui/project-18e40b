@@ -50,6 +50,8 @@ function Index() {
       <Garantia />
       {/* 11. FAQ */}
       <Faq />
+      {/* 11b. CONTATO — Instagram e suporte */}
+      <Contato />
       {/* 12. CTA FINAL */}
       <CtaFinal />
       <StickyCtaBar />
