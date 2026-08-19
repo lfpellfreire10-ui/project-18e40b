@@ -1,7 +1,7 @@
 import { MessageCircle, Instagram } from "lucide-react";
 import { Reveal } from "./Reveal";
 import p1 from "@/assets/prova-social-1.jpeg.asset.json";
-import p2 from "@/assets/prova-social-2.png.asset.json";
+import p2 from "@/assets/prova-social-2.jpeg.asset.json";
 import p3 from "@/assets/prova-social-3.jpeg.asset.json";
 
 const prints = [
