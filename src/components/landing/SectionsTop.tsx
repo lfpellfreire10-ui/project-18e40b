@@ -104,15 +104,17 @@ export function Autoridade() {
     <section className="mx-auto max-w-5xl px-5 py-16 sm:px-6 sm:py-20" aria-labelledby="autoridade">
       <Reveal>
         <p className="text-xs font-bold uppercase tracking-[0.18em] text-navy-soft">
-          Quem preparou o material
+          Quem preparou o material · Grupo Humanus
         </p>
         <h2 id="autoridade" className="mt-3 max-w-2xl text-balance-tight text-2xl font-extrabold sm:text-4xl">
-          Credibilidade vem do material — não de rosto em anúncio.
+          Feito por um grupo de amigos médicos que estudaram e passaram na residência.
         </h2>
         <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground">
-          Comentários feitos por médicos aprovados, explicando o raciocínio clínico por trás de cada
-          resposta — não apenas o gabarito. Questões com raciocínio lógico bem explicado, algumas
-          delas com ilustrações.
+          O conteúdo foi produzido pelo <strong className="font-semibold text-foreground">Grupo Humanus</strong> —
+          amigos médicos que estudaram juntos e foram aprovados na residência médica. São eles que
+          escrevem cada comentário, explicando o raciocínio clínico por trás de cada resposta — não
+          apenas o gabarito. Questões com raciocínio lógico bem explicado, algumas delas com
+          ilustrações.
         </p>
       </Reveal>
 
