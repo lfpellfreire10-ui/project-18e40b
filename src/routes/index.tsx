@@ -42,6 +42,8 @@ function Index() {
       <OQueRecebe />
       {/* 7. PROVA SOCIAL POR DADOS (sem depoimento pessoal) */}
       <Dados />
+      {/* 8. PROVA SOCIAL — prints de conversas reais */}
+      <ProvaSocial />
       {/* 9. OFERTA E PREÇO */}
       <Oferta />
       {/* 10. GARANTIA */}
