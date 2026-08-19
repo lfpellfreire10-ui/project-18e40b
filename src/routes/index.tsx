@@ -3,6 +3,7 @@ import { Hero, Autoridade, Dor } from "@/components/landing/SectionsTop";
 import { Metodo, ProvaVisual, OQueRecebe } from "@/components/landing/SectionsMid";
 import { Dados, Oferta, Garantia, Faq, CtaFinal } from "@/components/landing/SectionsBottom";
 import { TopOfferBar, StickyCtaBar } from "@/components/landing/Bars";
+import { ProvaSocial, Contato } from "@/components/landing/ProvaSocial";
 
 const TITLE = "Chega de decorar resumo | 1.500+ Questões Comentadas de Residência";
 const DESCRIPTION =
@@ -41,12 +42,16 @@ function Index() {
       <OQueRecebe />
       {/* 7. PROVA SOCIAL POR DADOS (sem depoimento pessoal) */}
       <Dados />
+      {/* 8. PROVA SOCIAL — prints de conversas reais */}
+      <ProvaSocial />
       {/* 9. OFERTA E PREÇO */}
       <Oferta />
       {/* 10. GARANTIA */}
       <Garantia />
       {/* 11. FAQ */}
       <Faq />
+      {/* 11b. CONTATO — Instagram e suporte */}
+      <Contato />
       {/* 12. CTA FINAL */}
       <CtaFinal />
       <StickyCtaBar />
